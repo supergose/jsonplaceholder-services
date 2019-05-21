@@ -1,14 +1,24 @@
 {
-  "name": "jsonplaceholder-services",
-  "version": "0.0.1",
+  "name": "@supergose/jsonplaceholder-services",
+  "version": "0.1.0",
   "description": "Javascript wrapper to http://jsonplaceholder.typicode.com REST Apis",
   "main": "src/index.js",
   "scripts": {
     "serve": "webpack-dev-server --open --env dev",
     "build": "webpack --env production"
   },
-  "author": "Marcello Tosetti",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/supergose/custom-ricerca-cliente.git"
+  },
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
   "dependencies": {
     "axios": "^0.18.0"
   },
