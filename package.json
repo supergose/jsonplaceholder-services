@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/supergose/custom-ricerca-cliente.git"
+    "url": "https://github.com/supergose/jsonplaceholder-services.git"
   },
   "files": [
     "dist/*",
