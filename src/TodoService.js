@@ -1,7 +1,7 @@
 import Api from "./Configuration";
 
 export default {
-  getPosts(param, header) {
+  getTodos(param, header) {
     return Api().get("todos", header);
   }
 };
